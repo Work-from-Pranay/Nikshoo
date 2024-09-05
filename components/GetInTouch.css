@@ -1,0 +1,40 @@
+.gi-wrap{
+   width: 100vw; 
+   height: 100vh;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.gi-box{
+    width: 70%;
+    height: 60%;
+    border: 1px solid gray;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gi-left{
+    width: 20%;
+    height: 40%;
+    border-right: 2px solid rgba(128, 128, 128, 0.189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gi-left h1{
+    position: relative;
+}
+.gi-left h1::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: #0000005a;
+    top: 100%;
+    left: 0;
+    margin-top: 2vw;
+
+}

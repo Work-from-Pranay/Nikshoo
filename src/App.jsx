@@ -4,13 +4,14 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css'
 import Hero from '../pages/Hero'
 import { Rotate } from '../components/Rotate';
+import GetInTouch from '../components/GetInTouch';
 
 function App() {
   
 
   return (
     <>
-      <Rotate></Rotate>
+      <GetInTouch></GetInTouch>
     </>
   )
 }

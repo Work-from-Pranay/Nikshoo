@@ -91,7 +91,7 @@
     padding: 20px;
     width: 100%;
     height: 100%;
-    
+
   }
   .circle-div{
     position: absolute;
@@ -115,4 +115,7 @@
     width: 90%;
     text-align: center;
     /* background: #000; */
+    color: #1A8074;
+    font-family: 'Jakarta-l';
+    font-weight: 700;
   }
